@@ -65,7 +65,7 @@ void vigenereDecrypt(char text[], const char key[]) {
 
 int main() {
     const char *key = "KEY"; 
-    char message[] = "Avantika"; 
+    char message[] = "ANJALI"; 
 
     vigenereEncrypt(message, key);
     printf("Encrypted Message: %s\n", message);
